@@ -15,12 +15,16 @@ a{
 }
 
 a:hover{
-    color: #2d65ff;
+    color: #1900ff;
     font-weight: bold;
 }
 
 .menu{
     background: #ddd7d7;
+}
+
+.menu ul{
+    text-align: center;
 }
 
 .menu li{
@@ -58,5 +62,25 @@ a:hover{
 }
 
 footer{
-    background-color: red;
+    background-color: rgb(156, 156, 156);
 }
+
+.alinhar-rodape{
+    text-align: center;
+    padding:20px;
+}
+
+.alinhar-rodape li{
+    display: inline;    
+    margin: 40px;
+}
+
+.redes{
+    text-align: center;
+    margin: 40px;
+}
+
+.redes li{
+    display: inline;
+}
+
