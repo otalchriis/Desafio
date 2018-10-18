@@ -67,7 +67,8 @@ footer{
 
 .alinhar-rodape{
     text-align: center;
-    padding:20px;
+    padding:20px 0px 60px 0px;
+    position: relative;
 }
 
 .alinhar-rodape li{
@@ -76,8 +77,10 @@ footer{
 }
 
 .redes{
-    text-align: center;
-    margin: 40px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .redes li{
