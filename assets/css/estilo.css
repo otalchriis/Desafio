@@ -1,119 +1,35 @@
-body{
-    font-family: 'lato' sans-serif;
-    margin: 0;
-    padding: 0;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(176, 190, 190);
+  position: relative;
+  min-height: 150px;
 }
 
-ul, ol, li{
-    list-style: none;
-    margin: 0;
-    
+.ident{
+  text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+.ident-foto{
+  width: 100%;
 }
 
-a:hover{
-    color: #1900ff;
-    font-weight: bold;
+.nome-completo{
+  margin-top: 0px;
+  font-size: 50px;
+}
+.container-foto{
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  width: 9%;
 }
 
-.menu{
-    background: #ddd7d7;    
-    display: flex;
-    justify-content: flex-end;
-    padding: 12px;        
-}
-
-.menu ul{
-    text-align: center;
-}
-
-.menu li{
-    display: inline;
-    padding-left: 12px;
-}
-
-.menu img{
-    width: 10%
-}
-
-.estilo-imagem{
-    border-radius: 100px;
-    border: 2px solid blue;
-    margin: 20px;
-
-}
-
-.banner > h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
-    font-size: 50px;
-    text-align: center;
-
-}
-
-.banner p{
-    text-align: center;
-}
-.banner{
-    padding-top: 185px;
-    padding-bottom: 185px;
-    background-image: url('../img/comida.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-footer{
-    background-color: rgb(156, 156, 156);
-}
-
-.alinhar-rodape{
-    text-align: center;
-    padding:20px 0px 60px 0px;
-    position: relative;
-}
-
-footer > div {
-    padding: 50px;
-    display: flex;
-    justify-content: space-around;
-}
-
-/* .alinhar-rodape li{
-    display: inline;    
-    margin: 40px;
-}
-
-/* .redes{
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.redes li{
-    display: inline;
-} */ */
-
-.container{
-    display: flex;
-}
-
-.container2{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.sobre-bolovo{
-    margin: 50px;
-
-}
-
-aside p{
-    text-align: center;
+.info-pessoal{
+  font-size: 20px;
 }
