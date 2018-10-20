@@ -9,6 +9,10 @@ header{
   min-height: 150px;
 }
 
+ul li{
+  margin: 20px; 
+}
+
 .ident{
   text-align: center;
   display: inline-block;
@@ -16,7 +20,7 @@ header{
 }
 
 .ident-foto{
-  width: 100%;
+  width: 130px;
 }
 
 .nome-completo{
